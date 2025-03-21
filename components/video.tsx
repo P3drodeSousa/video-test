@@ -12,27 +12,18 @@ type Props = {
 
 const Video = ({ src }: Props) => {
   return (
-    <ReactPlayer
-      id="active"
-      playing
+    <video
       loop
       muted
-      playsinline
-      url={src}
-      width="100%"
-      height="100%"
-      config={{
-        file: {
-          attributes: {
-            style: {
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            },
-          },
-        },
-      }}
-    />
+      autoPlay
+      preload="auto"
+      playsInline
+      src={src}
+      className="object-cover size-full will-change-auto"
+    >
+      <source type="video/mp4" src={src} />
+      Your browser does not support the video element.
+    </video>
   );
 };
 
