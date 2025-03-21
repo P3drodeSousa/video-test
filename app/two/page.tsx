@@ -21,7 +21,7 @@ export default async function Experience(props: Props) {
       <Link prefetch={true} href="/">
         One
       </Link>
-      <Video src="https://fzege9x9oyyium0b.public.blob.vercel-storage.com/videos/elite-exp-trees-bg-loop-BhcN5IwqA9Ahb4eiIHEjqh7aDAXIuT.mp4" />
+      <Video src="https://www.elitebeds.ch/video/6r/elite-matieres.mp4" />
     </main>
   );
 }
