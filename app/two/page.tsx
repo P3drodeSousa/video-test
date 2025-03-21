@@ -10,7 +10,7 @@ function pause(ms: number) {
 }
 
 // FIXME CHANGE IT TO 1 MONTH
-export const revalidate = 60;
+export const revalidate = 2592000;
 export default async function Experience(props: Props) {
   const params = await props.params;
 
